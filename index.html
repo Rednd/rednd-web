@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="&quot;i like looking at feminine boys and small penis&quot; — hey what's up, im rednd and i like playing games and watching anime. if you couldn't tell from my links, i also really like ratfucking. im also a big fan of kirino from oreimo. feel free to reach out to me on any of my socials" />
+  <title>rednd.xyz</title>
+  <meta property="og:title" content="Rednd — rednd.xyz" />
+  <meta property="og:description" content="&quot;i like looking at feminine boys and small penis&quot; — hey what's up, im rednd and i like playing games and watching anime. if you couldn't tell from my links, i also really like ratfucking. im also a big fan of kirino from oreimo. feel free to reach out to me on any of my socials" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://rednd.xyz/" />
+  <meta property="og:image" content="https://rednd.xyz/pfp.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Rednd — rednd.xyz" />
+  <meta name="twitter:description" content="&quot;i like looking at feminine boys and small penis&quot; — hey what's up, im rednd and i like playing games and watching anime. if you couldn't tell from my links, i also really like ratfucking. im also a big fan of kirino from oreimo. feel free to reach out to me on any of my socials" />
+  <meta name="twitter:image" content="https://rednd.xyz/pfp.jpg" />
+  <link rel="image_src" href="https://rednd.xyz/pfp.jpg" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <audio id="bgMusic"></audio>
+  <div id="splashScreen" class="splash-screen">
+    <div class="splash-content">
+      <p>"Cheer up, will you? I'm on your side. You may be a hopeless mess, and everyone else might abandon you, but I'll stay by your side. I'll worry over you and scold you till the end. So cheer up, Aniki." - Kirino Kousaka</p>
+    </div>
+  </div>
+  <button id="musicToggle" class="music-toggle" aria-label="Toggle background music" title="Toggle music">
+    <svg class="icon-play" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" style="display:none"><path d="M8 5v14l11-7z"></path></svg>
+    <svg class="icon-pause" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z"></path></svg>
+  </button>
+  <div class="music-control">
+    <input id="volumeSlider" class="volume-slider" type="range" min="0" max="100" value="5" aria-label="Volume" />
+  </div>
+  <main class="container">
+    <!-- Home Page -->
+    <div id="homePage" class="page">
+      <header class="hero">
+        <div class="accent-band"></div>
+        <div class="hero-inner">
+          <img id="avatar" class="avatar" src="pfp.jpg" alt="Profile picture" />
+          <div class="hero-content">
+            <h1 id="username">Rednd</h1>
+            <p id="tagline" class="tagline">"i like looking at feminine boys and small penis"</p>
+          </div>
+        </div>
+      </header>
+
+      <nav class="nav-links">
+        <a href="/" class="nav-home active">Home</a>
+        <a href="/blog" class="nav-blog">Blog</a>
+      </nav>
+
+      <section class="card about">
+        <h2>About me</h2>
+        <p id="about">hey what's up, im rednd and i like playing games and watching anime. if you couldn't tell from my links, i also really like ratfucking. im also a big fan of kirino from oreimo. feel free to reach out to me on any of my socials</p>
+      </section>
+
+      <section class="card socials">
+        <h3>Where you can find me</h3>
+        <div class="socials">
+          <a id="xLink" class="social" href="#" target="_blank" rel="noopener" aria-label="X">
+            <img src="https://www.google.com/s2/favicons?sz=18&domain=x.com" alt="X" />
+            <span>X</span>
+          </a>
+
+          <a id="ytLink" class="social" href="#" target="_blank" rel="noopener" aria-label="YouTube">
+            <img src="https://www.google.com/s2/favicons?sz=18&domain=youtube.com" alt="YouTube" />
+            <span>YouTube</span>
+          </a>
+
+          <a id="steamLink" class="social" href="#" target="_blank" rel="noopener" aria-label="Steam">
+            <img src="https://www.google.com/s2/favicons?sz=18&domain=steamcommunity.com" alt="Steam" />
+            <span>Steam</span>
+          </a>
+
+          <a id="maliLink" class="social" href="#" target="_blank" rel="noopener" aria-label="MyAnimeList">
+            <img src="https://www.google.com/s2/favicons?sz=18&domain=myanimelist.net" alt="MyAnimeList" />
+            <span>MyAnimeList</span>
+          </a>
+
+          <a id="site1Link" class="social" href="#" target="_blank" rel="noopener" aria-label="ratfucking.net">
+            <img src="https://www.google.com/s2/favicons?sz=18&domain=ratfucking.net" alt="ratfucking.net" />
+            <span>ratfucking.net</span>
+          </a>
+
+          <a id="site2Link" class="social" href="#" target="_blank" rel="noopener" aria-label="nazrin.sh">
+            <img src="https://www.google.com/s2/favicons?sz=18&domain=nazrin.sh" alt="nazrin.sh" />
+            <span>nazrin.sh</span>
+          </a>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <small>&copy; <span id="year"></span> <span id="footerName">Rednd</span></small>
+      </footer>
+    </div>
+
+    <!-- Blog Page -->
+    <div id="blogPage" class="page" style="display:none">
+      <header class="hero">
+        <div class="accent-band"></div>
+        <div class="hero-inner">
+          <img class="avatar" src="pfp.jpg" alt="Profile picture" />
+          <div class="hero-content">
+            <h1>Blog</h1>
+            <p class="tagline">thoughts and reflections</p>
+          </div>
+        </div>
+      </header>
+
+      <nav class="nav-links">
+        <a href="/" class="nav-home">Home</a>
+        <a href="/blog" class="nav-blog active">Blog</a>
+      </nav>
+
+      <div class="blog-actions">
+        <button id="newBlogBtn" class="btn-primary">Write New Post</button>
+      </div>
+
+      <div id="blogList" class="blog-list"></div>
+
+      <footer class="footer">
+        <small>&copy; <span id="year2"></span> <span id="footerName2">Rednd</span></small>
+      </footer>
+    </div>
+  </main>
+
+  <div id="blogModal" class="blog-modal" aria-hidden="true">
+    <div class="modal-inner">
+      <h3>Write New Post</h3>
+      <label>Title <input id="blogTitle" type="text" placeholder="Post title" /></label>
+      <label>Content <textarea id="blogContent" rows="8" placeholder="Write your post here..."></textarea></label>
+      <label>Password <input id="blogPassword" type="password" placeholder="Enter password to post" autocomplete="current-password" /></label>
+      <div class="modal-actions">
+        <button id="publishBtn" class="btn-primary">Publish</button>
+        <button id="closeBlogBtn" class="btn-secondary">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
