@@ -18,3 +18,9 @@ npm install
 ```bash
 npm start
 ```
+
+## Blogs
+
+```bash
+export BLOG_POST_PASSWORD=example
+```
